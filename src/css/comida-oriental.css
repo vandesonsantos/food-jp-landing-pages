@@ -1,0 +1,43 @@
+ .comida-oriental {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.infor-comida {
+    width: 500px;
+}
+
+.titulo{
+    font-family: var(--font-titulo);
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+
+.infor-comida p{
+    text-align: left;
+    font-family: var(--font-conteudo);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.infor-comida button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--red);
+    font-family: var(--font-conteudo);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.img-sushi > img {
+    width: 100%;
+    max-width: 300PX;
+}
