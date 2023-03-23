@@ -3,4 +3,14 @@ body{
   margin: auto;
 }  
   
-  
+.titulo{
+  font-family: var(--font-titulo);
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.texto{
+  font-family: var(--font-conteudo);
+  font-weight: 400;
+  font-size: 2rem;
+}

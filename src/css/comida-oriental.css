@@ -10,18 +10,11 @@
     width: 500px;
 }
 
-.titulo{
-    font-family: var(--font-titulo);
-    font-size: 4rem;
-    font-weight: 600;
-    margin-bottom: 21px;
+.infor-comida .titulo{
+    margin-bottom: 20px;
 }
 
-.infor-comida p{
-    text-align: left;
-    font-family: var(--font-conteudo);
-    font-weight: 400;
-    font-size: 20px;
+.infor-comida .texto{
     margin-bottom: 45px;
 }
 
@@ -39,5 +32,5 @@
 
 .img-sushi > img {
     width: 100%;
-    max-width: 300PX;
+    /* max-width: 350px; */
 }

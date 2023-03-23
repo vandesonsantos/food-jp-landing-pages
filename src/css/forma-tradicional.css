@@ -1,0 +1,33 @@
+.forma-tradicional{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.img-segurando-prato > img{
+    width: 100%;
+    /* max-width: 500px; */
+}
+
+.infor-prato{
+    margin-left: 120px;
+    width: 500px;
+}
+
+.infor-prato .titulo{
+    width: 360px;
+    margin-bottom: 25px;
+}
+
+.infor-prato .texto{
+    margin-bottom: 40px;
+}
+
+.infor-prato a{
+    font-size: 2rem;
+    color: var(--red);
+    font-family: var(--font-conteudo);
+    text-decoration: underline;
+    
+}
