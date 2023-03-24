@@ -21,3 +21,14 @@ body{
     margin: auto;
   }
 }
+
+@media(max-width: 950px){
+  .titulo{
+    font-size: 2.6rem;
+  }
+
+  .texto{
+    font-size: 1.6rem;
+    
+  }
+}

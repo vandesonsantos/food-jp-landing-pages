@@ -90,17 +90,9 @@
 
 @media(max-width: 950px){
   .navegacao{
-    flex-direction: column;
-    text-align: center;
+    padding: 40px 30px 50px;
   }
 
-  .menu-desktop{
-    justify-content: center;
-    margin-top: 50px;
-  }
-}
-
-@media(max-width: 700px){
   .header .menu{
     display: block;
   }

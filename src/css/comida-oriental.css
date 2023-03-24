@@ -1,13 +1,9 @@
- .comida-oriental {
+.comida-oriental{
     display: flex;
     align-items: center;
     justify-content: space-between; 
     padding-top: 40px;
-    flex-wrap: wrap;
-}
-
-.infor-comida {
-    width: 500px;
+    gap: 150px;
 }
 
 .infor-comida .titulo{
@@ -30,7 +26,17 @@
     cursor: pointer;
 }
 
-.img-sushi > img {
-    width: 100%;
-    /* max-width: 350px; */
+@media(max-width: 950px){
+    .comida-oriental{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .infor-comida button{
+        width: 100%;
+    }
+
+    .img-sushi{
+        display: none;
+    }
 }
