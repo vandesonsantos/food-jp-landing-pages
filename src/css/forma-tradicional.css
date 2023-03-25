@@ -6,8 +6,7 @@
 }
 
 .infor-prato{
-    margin-left: 70px;
-    padding: 0 50px;
+    padding: 0 0 0 87px;
 }
 
 .infor-prato .titulo{    
@@ -37,7 +36,7 @@
     }
 
     .infor-prato{
-        margin-left: 0;
+        padding: 0 25px;
         text-align: center;
     }
 
