@@ -1,0 +1,12 @@
+.mais-populares{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.comidas{
+    display: flex;
+    gap: 120px;
+    margin-top: 50px;
+}
