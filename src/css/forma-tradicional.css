@@ -1,33 +1,52 @@
 .forma-tradicional{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-top: 100px;
 }
 
-.img-segurando-prato > img{
-    width: 100%;
-    /* max-width: 500px; */
-}
-
 .infor-prato{
-    margin-left: 120px;
-    width: 500px;
+    margin-left: 70px;
+    padding: 0 50px;
 }
 
-.infor-prato .titulo{
-    width: 360px;
+.infor-prato .titulo{    
     margin-bottom: 25px;
 }
 
 .infor-prato .texto{
     margin-bottom: 40px;
-}
+} 
 
 .infor-prato a{
     font-size: 2rem;
     color: var(--red);
     font-family: var(--font-conteudo);
-    text-decoration: underline;
-    
+    text-decoration: underline;    
+}
+
+@media(max-width: 950px){
+    .forma-tradicional{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .img-segurando-prato img{
+        width: 100vw;
+        padding: 30px;
+    }
+
+    .infor-prato{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .infor-prato .texto{
+        margin-bottom: 20px;
+    }
+
+    .infor-prato a{
+        font-size: 1.6rem;
+        margin-top: 0px;
+    }
 }
