@@ -7,7 +7,7 @@
 
 .comidas{
     display: flex;
-    gap: 100px;
+    gap: 45px;
     margin-top: 150px;
 }
 
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 350px;
+    min-height: 380px;
     text-align: center;
     font-family: var(--font-titulo);
     border-radius: 10px;
@@ -37,9 +37,35 @@
 .preco-prato{
     font-size: 2.5rem;
     font-weight: 500;
+    padding-bottom: 20px;
 }
 
 .img-pratos{
     position: absolute;
     top: -100px;
+    left: 8%;
+}
+
+@media(max-width: 950px){
+    .mais-populares{
+        margin-top: 60px;
+    }
+
+    .comidas{
+        flex-direction: column;
+        padding: 25px;
+        margin-top: 120px;
+    }
+    
+    .img-pratos{
+        left: 5%;
+    }
+
+    .frango{
+        margin-bottom: 100px;
+    }
+
+    .apimentado{
+        margin-bottom: 100px;
+    }
 }
