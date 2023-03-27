@@ -19,13 +19,8 @@
     min-height: 380px;
     text-align: center;
     font-family: var(--font-titulo);
-    border-radius: 10px;
+    border-radius: 32px;
     position: relative;
-}
-
-.nome-prato{
-    font-size: 2.5rem;
-    font-weight: 500;
 }
 
 .descricao-prato{
