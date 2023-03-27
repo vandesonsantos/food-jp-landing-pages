@@ -1,0 +1,32 @@
+.location{
+    margin-top: 100px;
+}
+
+.image-of-maps{
+    margin-top: 50px;
+}
+
+.image-of-maps iframe{
+    border: 0;
+    border-radius: 16px;
+}
+
+@media(max-width: 950px){
+    .location{
+        margin-top: 50px;
+    }
+
+    .location .titulo{
+        text-align: center;
+    }
+
+    .image-of-maps{
+        padding: 0 25px;
+        margin-top: 25px;
+        height: 150px;
+    }
+
+    .image-of-maps iframe{
+        height: 250px;
+    }
+}
