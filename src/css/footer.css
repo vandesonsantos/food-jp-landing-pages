@@ -1,0 +1,17 @@
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.contact h4, .sobre-nos h4, .servico h4{
+    font-family: var(--titulo-rodape);
+    font-size: 2.2rem;
+    margin-bottom: 24px;
+}
+
+.contact p, .sobre-nos p, .servico p{
+    font-family: var(--conteudo-rodape);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}

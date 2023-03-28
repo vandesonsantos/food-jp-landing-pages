@@ -53,7 +53,8 @@
     }
     
     .img-pratos{
-        left: 5%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .frango{
