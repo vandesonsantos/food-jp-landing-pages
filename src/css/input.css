@@ -1,0 +1,90 @@
+.input{
+    display: flex;
+    justify-content: center;
+}
+.search-local {
+    width: 100%;
+    max-width: 75rem;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    padding-left: 2rem;
+    background-color: #FFF;
+    border-radius: 1rem;
+    min-height: 7rem;
+    height: auto;
+    border: 0.1rem solid var(--black);
+    border-right: none;
+}
+
+.icon {
+    color: var(--red);
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon:hover {
+    animation: funny-icon 0.4s ease-in-out;
+}
+  
+@keyframes funny-icon {
+    0% {
+      scale: 1;
+    }
+  
+    50% {
+      scale: 0.8;
+      transform-origin: bottom;
+      transform: rotate(-15deg);
+    }
+  
+    100% {
+      scale: 1;
+    }
+}
+
+.search-local input {
+    height: 100%;
+    width: 100%;
+    flex: 1 1 25rem;
+    background-color: #FFf;
+    display: flex;
+    outline: none;
+    border: none;
+    color: var(--black);
+    font-size: 2.4rem;
+}
+  
+input[type="text"]::placeholder {
+    color: var(--black);
+    font-size: 2.4rem;
+}
+
+.search-local button {
+    background: var(--red);
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    font-weight: 500;
+    font-size: 2.4rem;
+    height: 7rem;
+    width: 18rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+}
+  
+button a {
+    color: #FFF;
+}
+  
+  .search-local button .search-icon {
+    display: none;
+}
+  
+  .search-local button:hover {
+    letter-spacing: 0.5rem;
+}
+  
+  
