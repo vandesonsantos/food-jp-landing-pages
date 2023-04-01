@@ -4,7 +4,7 @@
 
 
 ## Bem-Vindos! 👋
-
+Participar do projeto Food JP Landing Pages foi uma oportunidade fantástica para aprimorar minhas habilidades com as tecnologias HTML, CSS e Javascript. Trabalhar nesse projeto me permitiu explorar diferentes maneiras de alcançar os objetivos e desenvolver novas técnicas para criar landing pages de sucessos.
 
 
 ## Tecnologias Utilizadas
@@ -13,11 +13,6 @@
 - Flexbox
 - JavaScript
 
-
-## Quer Utilizar o Script Usado no Projeto?
-```
-
-```
 
 ## Veja o projeto Food JP 
 Deploy Do Projeto
