@@ -4,14 +4,45 @@
     margin: 100px 0;
 }
 
-.contact h4, .sobre-nos h4, .servico h4{
+.contact h4, .sobre-nos h4, .servicos h4{
     font-family: var(--titulo-rodape);
     font-size: 2.2rem;
     margin-bottom: 24px;
 }
 
-.contact p, .sobre-nos p, .servico p{
+.contact p, .sobre-nos p, .servicos p{
     font-family: var(--conteudo-rodape);
     font-size: 1.5rem;
     margin-bottom: 10px;
+}
+
+@media(max-width: 950px){
+    .rodape{
+        flex-direction: column;
+        padding: 0 25px;
+    }
+
+    .rodape .logo-rodape{
+        margin-bottom: 30px;
+    }
+
+    .rodape .contact{
+        margin-bottom: 30px;
+    }
+
+    .rodape .contact h4{
+        margin-bottom: 10px;
+    }
+
+    .rodape .sobre-nos{
+        margin-bottom: 30px;
+    }
+
+    .rodape .sobre-nos h4{
+        margin-bottom: 10px;
+    }
+
+    .rodape .servicos h4{
+        margin-bottom: 10px;
+    }
 }
